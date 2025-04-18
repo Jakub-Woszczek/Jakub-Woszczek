@@ -1,0 +1,485 @@
+
+
+<svg width="260" height="50" viewBox="0 0 260 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Mask z gradientem zanikania góra/dół -->
+    <mask id="fadeMask">
+      <linearGradient id="fadeGradient" gradientTransform="rotate(90)">
+        <stop offset="0%" stop-color="white" stop-opacity="0"/>
+        <stop offset="30%" stop-color="white" stop-opacity="1"/>
+        <stop offset="70%" stop-color="white" stop-opacity="1"/>
+        <stop offset="100%" stop-color="white" stop-opacity="0"/>
+      </linearGradient>
+      <rect x="0" y="0" width="260" height="50" fill="url(#fadeGradient)" />
+    </mask>
+  </defs>
+
+
+  <!-- Slot H -->
+  <g mask="url(#fadeMask)">
+    <g class="rollH" transform="translate(0, 35)">
+      <text x="0" y="35" font-size="35" font-family="monospace">A</text>
+      <text x="0" y="70" font-size="35" font-family="monospace">B</text>
+      <text x="0" y="105" font-size="35" font-family="monospace">C</text>
+      <text x="0" y="140" font-size="35" font-family="monospace">D</text>
+      <text x="0" y="175" font-size="35" font-family="monospace">E</text>
+      <text x="0" y="210" font-size="35" font-family="monospace">F</text>
+      <text x="0" y="245" font-size="35" font-family="monospace">G</text>
+      <text x="0" y="280" font-size="35" font-family="monospace">H</text>
+    </g>
+  </g>
+
+
+
+  <!-- Styl animacji -->
+  <style>
+    .rollH {
+      animation: rollDownH 1.2s ease-in-out forwards;
+      animation-delay: 6s;
+    }
+
+
+    @keyframes rollDownH {
+      from {
+        transform: translateY(45px);
+      }
+      to {
+        transform: translateY(-245px);
+      }
+    }
+  </style>
+
+  <!--Slot i-->
+  <g mask="url(#fadeMask)">
+    <g class="rolli" transform="translate(0, 35)">
+      <text x="20" y="35" font-size="35" font-family="monospace">a</text>
+      <text x="20" y="70" font-size="35" font-family="monospace">b</text>
+      <text x="20" y="105" font-size="35" font-family="monospace">c</text>
+      <text x="20" y="140" font-size="35" font-family="monospace">d</text>
+      <text x="20" y="175" font-size="35" font-family="monospace">e</text>
+      <text x="20" y="210" font-size="35" font-family="monospace">f</text>
+      <text x="20" y="245" font-size="35" font-family="monospace">g</text>
+      <text x="20" y="280" font-size="35" font-family="monospace">h</text>
+      <text x="20" y="315" font-size="35" font-family="monospace">i</text>
+    </g>
+  </g>
+  <style>
+    .rolli {
+      animation: rollDowni 2.2s ease-in-out forwards;
+      animation-delay: 3s;
+    }
+
+
+    @keyframes rollDowni {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(-280px);
+      }
+    }
+  </style>
+
+  <!--Slot Comma-->
+  <g mask="url(#fadeMask)">
+    <g class="rollComma" transform="translate(0, 35)">
+      <text x="40" y="35" font-size="35" font-family="monospace">,</text>
+    </g>
+  </g>
+  <style>
+    .rollComma {
+      animation: rollDownComma 2.2s ease-in-out forwards;
+      animation-delay: 2.5s;
+    }
+
+
+    @keyframes rollDownComma {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(0px);
+      }
+    }
+  </style>
+
+
+  <!--Slot I-->
+  <g mask="url(#fadeMask)">
+    <g class="rollIsec" transform="translate(0, 35)">
+      <text x="80" y="35" font-size="35" font-family="monospace">A</text>
+      <text x="80" y="70" font-size="35" font-family="monospace">B</text>
+      <text x="80" y="105" font-size="35" font-family="monospace">C</text>
+      <text x="80" y="140" font-size="35" font-family="monospace">D</text>
+      <text x="80" y="175" font-size="35" font-family="monospace">E</text>
+      <text x="80" y="210" font-size="35" font-family="monospace">F</text>
+      <text x="80" y="245" font-size="35" font-family="monospace">G</text>
+      <text x="80" y="280" font-size="35" font-family="monospace">H</text>
+      <text x="80" y="315" font-size="35" font-family="monospace">I</text>
+      <text x="80" y="350" font-size="35" font-family="monospace">J</text>
+      <text x="80" y="385" font-size="35" font-family="monospace">K</text>
+      <text x="80" y="420" font-size="35" font-family="monospace">L</text>
+      <text x="80" y="455" font-size="35" font-family="monospace">M</text>
+      <text x="80" y="490" font-size="35" font-family="monospace">N</text>
+      <text x="80" y="525" font-size="35" font-family="monospace">O</text>
+      <text x="80" y="560" font-size="35" font-family="monospace">P</text>
+      <text x="80" y="595" font-size="35" font-family="monospace">Q</text>
+      <text x="80" y="630" font-size="35" font-family="monospace">R</text>
+      <text x="80" y="665" font-size="35" font-family="monospace">S</text>
+      <text x="80" y="700" font-size="35" font-family="monospace">T</text>
+      <text x="80" y="735" font-size="35" font-family="monospace">U</text>
+      <text x="80" y="770" font-size="35" font-family="monospace">V</text>
+      <text x="80" y="805" font-size="35" font-family="monospace">W</text>
+      <text x="80" y="840" font-size="35" font-family="monospace">X</text>
+      <text x="80" y="875" font-size="35" font-family="monospace">Y</text>
+      <text x="80" y="910" font-size="35" font-family="monospace">Z</text>
+      <text x="80" y="945" font-size="35" font-family="monospace">A</text>
+      <text x="80" y="980" font-size="35" font-family="monospace">B</text>
+      <text x="80" y="1015" font-size="35" font-family="monospace">C</text>
+      <text x="80" y="1050" font-size="35" font-family="monospace">D</text>
+      <text x="80" y="1085" font-size="35" font-family="monospace">E</text>
+      <text x="80" y="1120" font-size="35" font-family="monospace">F</text>
+      <text x="80" y="1155" font-size="35" font-family="monospace">G</text>
+      <text x="80" y="1190" font-size="35" font-family="monospace">H</text>
+      <text x="80" y="1225" font-size="35" font-family="monospace">I</text>
+    </g>
+  </g>
+  <style>
+    .rollIsec {
+      animation: rollDownIsec 2.2s ease-in-out forwards;
+      animation-delay: 1s;
+    }
+
+
+    @keyframes rollDownIsec {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(-1190px);
+      }
+    }
+  </style>
+
+
+  <!--Slot apostrophe-->
+  <g mask="url(#fadeMask)">
+    <g class="rollApostrophe" transform="translate(0, -50)">
+      <text x="100" y="35" font-size="35" font-family="monospace">'</text>
+    </g>
+  </g>
+  <style>
+    .rollApostrophe {
+      animation: rollDownApostrophe 2.2s ease-in-out forwards;
+      animation-delay: 4s;
+    }
+
+
+    @keyframes rollDownApostrophe {
+      from {
+        transform: translateY(-35px);
+      }
+      to {
+        transform: translateY(0px);
+      }
+    }
+  </style>
+
+
+  <!--Slot m-->
+  <g mask="url(#fadeMask)">
+    <g class="rollm" transform="translate(0, 35)">
+      <text x="120" y="35" font-size="35" font-family="monospace">a</text>
+      <text x="120" y="70" font-size="35" font-family="monospace">b</text>
+      <text x="120" y="105" font-size="35" font-family="monospace">c</text>
+      <text x="120" y="140" font-size="35" font-family="monospace">d</text>
+      <text x="120" y="175" font-size="35" font-family="monospace">e</text>
+      <text x="120" y="210" font-size="35" font-family="monospace">f</text>
+      <text x="120" y="245" font-size="35" font-family="monospace">g</text>
+      <text x="120" y="280" font-size="35" font-family="monospace">h</text>
+      <text x="120" y="315" font-size="35" font-family="monospace">i</text>
+      <text x="120" y="350" font-size="35" font-family="monospace">j</text>
+      <text x="120" y="385" font-size="35" font-family="monospace">k</text>
+      <text x="120" y="420" font-size="35" font-family="monospace">l</text>
+      <text x="120" y="455" font-size="35" font-family="monospace">m</text>
+    </g>
+  </g>
+  <style>
+    .rollm {
+      animation: rollDownm 2.2s ease-in-out forwards;
+      animation-delay: 5.5s;
+    }
+
+
+    @keyframes rollDownm {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(-420px);
+      }
+    }
+  </style>
+
+
+  <!--Slot J-->
+  <g mask="url(#fadeMask)">
+    <g class="rollJ" transform="translate(0, 35)">
+      <text x="160" y="35" font-size="35" font-family="monospace">A</text>
+      <text x="160" y="70" font-size="35" font-family="monospace">B</text>
+      <text x="160" y="105" font-size="35" font-family="monospace">C</text>
+      <text x="160" y="140" font-size="35" font-family="monospace">D</text>
+      <text x="160" y="175" font-size="35" font-family="monospace">E</text>
+      <text x="160" y="210" font-size="35" font-family="monospace">F</text>
+      <text x="160" y="245" font-size="35" font-family="monospace">G</text>
+      <text x="160" y="280" font-size="35" font-family="monospace">H</text>
+      <text x="160" y="315" font-size="35" font-family="monospace">I</text>
+      <text x="160" y="350" font-size="35" font-family="monospace">J</text>
+    </g>
+  </g>
+  <style>
+    .rollJ {
+      animation: rollDownJ 2.2s ease-in-out forwards;
+      animation-delay: 4.5s;
+    }
+
+
+    @keyframes rollDownJ {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(-315px);
+      }
+    }
+  </style>
+
+
+  <!--Slot a-->
+  <g mask="url(#fadeMask)">
+    <g class="rolla" transform="translate(0, 35)">
+      <text x="180" y="35" font-size="35" font-family="monospace">a</text>
+      <text x="180" y="70" font-size="35" font-family="monospace">b</text>
+      <text x="180" y="105" font-size="35" font-family="monospace">c</text>
+      <text x="180" y="140" font-size="35" font-family="monospace">d</text>
+      <text x="180" y="175" font-size="35" font-family="monospace">e</text>
+      <text x="180" y="210" font-size="35" font-family="monospace">f</text>
+      <text x="180" y="245" font-size="35" font-family="monospace">g</text>
+      <text x="180" y="280" font-size="35" font-family="monospace">h</text>
+      <text x="180" y="315" font-size="35" font-family="monospace">i</text>
+      <text x="180" y="350" font-size="35" font-family="monospace">j</text>
+      <text x="180" y="385" font-size="35" font-family="monospace">k</text>
+      <text x="180" y="420" font-size="35" font-family="monospace">l</text>
+      <text x="180" y="455" font-size="35" font-family="monospace">m</text>
+      <text x="180" y="490" font-size="35" font-family="monospace">n</text>
+      <text x="180" y="525" font-size="35" font-family="monospace">o</text>
+      <text x="180" y="560" font-size="35" font-family="monospace">p</text>
+      <text x="180" y="595" font-size="35" font-family="monospace">q</text>
+      <text x="180" y="630" font-size="35" font-family="monospace">r</text>
+      <text x="180" y="665" font-size="35" font-family="monospace">s</text>
+      <text x="180" y="700" font-size="35" font-family="monospace">t</text>
+      <text x="180" y="735" font-size="35" font-family="monospace">u</text>
+      <text x="180" y="770" font-size="35" font-family="monospace">v</text>
+      <text x="180" y="805" font-size="35" font-family="monospace">w</text>
+      <text x="180" y="840" font-size="35" font-family="monospace">x</text>
+      <text x="180" y="875" font-size="35" font-family="monospace">y</text>
+      <text x="180" y="910" font-size="35" font-family="monospace">z</text>
+      <text x="180" y="945" font-size="35" font-family="monospace">a</text>
+      <text x="180" y="980" font-size="35" font-family="monospace">b</text>
+      <text x="180" y="1015" font-size="35" font-family="monospace">c</text>
+      <text x="180" y="1050" font-size="35" font-family="monospace">d</text>
+      <text x="180" y="1085" font-size="35" font-family="monospace">e</text>
+      <text x="180" y="1120" font-size="35" font-family="monospace">f</text>
+      <text x="180" y="1155" font-size="35" font-family="monospace">g</text>
+      <text x="180" y="1190" font-size="35" font-family="monospace">h</text>
+      <text x="180" y="1225" font-size="35" font-family="monospace">i</text>
+      <text x="180" y="1260" font-size="35" font-family="monospace">j</text>
+      <text x="180" y="1295" font-size="35" font-family="monospace">k</text>
+      <text x="180" y="1330" font-size="35" font-family="monospace">l</text>
+      <text x="180" y="1365" font-size="35" font-family="monospace">m</text>
+      <text x="180" y="1400" font-size="35" font-family="monospace">n</text>
+      <text x="180" y="1435" font-size="35" font-family="monospace">o</text>
+      <text x="180" y="1470" font-size="35" font-family="monospace">p</text>
+      <text x="180" y="1505" font-size="35" font-family="monospace">q</text>
+      <text x="180" y="1540" font-size="35" font-family="monospace">r</text>
+      <text x="180" y="1575" font-size="35" font-family="monospace">s</text>
+      <text x="180" y="1610" font-size="35" font-family="monospace">t</text>
+      <text x="180" y="1645" font-size="35" font-family="monospace">u</text>
+      <text x="180" y="1680" font-size="35" font-family="monospace">v</text>
+      <text x="180" y="1715" font-size="35" font-family="monospace">w</text>
+      <text x="180" y="1750" font-size="35" font-family="monospace">x</text>
+      <text x="180" y="1785" font-size="35" font-family="monospace">y</text>
+      <text x="180" y="1820" font-size="35" font-family="monospace">z</text>
+      <text x="180" y="1855" font-size="35" font-family="monospace">a</text>
+    </g>
+  </g>
+  <style>
+    .rolla {
+      animation: rollDowna 2.2s ease-in-out forwards;
+      animation-delay: 1s;
+    }
+
+
+    @keyframes rollDowna {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(-1820px);
+      }
+    }
+  </style>
+
+
+  <!--Slot k-->
+  <g mask="url(#fadeMask)">
+    <g class="rollk" transform="translate(0, 45)">
+      <text x="200" y="35" font-size="35" font-family="monospace">a</text>
+      <text x="200" y="70" font-size="35" font-family="monospace">b</text>
+      <text x="200" y="105" font-size="35" font-family="monospace">c</text>
+      <text x="200" y="140" font-size="35" font-family="monospace">d</text>
+      <text x="200" y="175" font-size="35" font-family="monospace">e</text>
+      <text x="200" y="210" font-size="35" font-family="monospace">f</text>
+      <text x="200" y="245" font-size="35" font-family="monospace">g</text>
+      <text x="200" y="280" font-size="35" font-family="monospace">h</text>
+      <text x="200" y="315" font-size="35" font-family="monospace">i</text>
+      <text x="200" y="350" font-size="35" font-family="monospace">j</text>
+      <text x="200" y="385" font-size="35" font-family="monospace">k</text>
+      <text x="200" y="420" font-size="35" font-family="monospace">l</text>
+      <text x="200" y="455" font-size="35" font-family="monospace">m</text>
+      <text x="200" y="490" font-size="35" font-family="monospace">n</text>
+      <text x="200" y="525" font-size="35" font-family="monospace">o</text>
+      <text x="200" y="560" font-size="35" font-family="monospace">p</text>
+      <text x="200" y="595" font-size="35" font-family="monospace">q</text>
+      <text x="200" y="630" font-size="35" font-family="monospace">r</text>
+      <text x="200" y="665" font-size="35" font-family="monospace">s</text>
+      <text x="200" y="700" font-size="35" font-family="monospace">t</text>
+      <text x="200" y="735" font-size="35" font-family="monospace">u</text>
+      <text x="200" y="770" font-size="35" font-family="monospace">v</text>
+      <text x="200" y="805" font-size="35" font-family="monospace">w</text>
+      <text x="200" y="840" font-size="35" font-family="monospace">x</text>
+      <text x="200" y="875" font-size="35" font-family="monospace">y</text>
+      <text x="200" y="910" font-size="35" font-family="monospace">z</text>
+      <text x="200" y="945" font-size="35" font-family="monospace">a</text>
+      <text x="200" y="980" font-size="35" font-family="monospace">b</text>
+      <text x="200" y="1015" font-size="35" font-family="monospace">c</text>
+      <text x="200" y="1050" font-size="35" font-family="monospace">d</text>
+      <text x="200" y="1085" font-size="35" font-family="monospace">e</text>
+      <text x="200" y="1120" font-size="35" font-family="monospace">f</text>
+      <text x="200" y="1155" font-size="35" font-family="monospace">g</text>
+      <text x="200" y="1190" font-size="35" font-family="monospace">h</text>
+      <text x="200" y="1225" font-size="35" font-family="monospace">i</text>
+      <text x="200" y="1260" font-size="35" font-family="monospace">i</text>
+      <text x="200" y="1295" font-size="35" font-family="monospace">k</text>
+    </g>
+  </g>
+  <style>
+    .rollk {
+      animation: rollDownk 2.2s ease-in-out forwards;
+      animation-delay: 1s;
+    }
+
+
+    @keyframes rollDownk {
+      from {
+        transform: translateY(45px);
+      }
+      to {
+        transform: translateY(-1260px);
+      }
+    }
+  </style>
+
+
+  <!--Slot u-->
+  <g mask="url(#fadeMask)">
+    <g class="rollu" transform="translate(0, 45)">
+      <text x="220" y="35" font-size="35" font-family="monospace">a</text>
+      <text x="220" y="70" font-size="35" font-family="monospace">b</text>
+      <text x="220" y="105" font-size="35" font-family="monospace">c</text>
+      <text x="220" y="140" font-size="35" font-family="monospace">d</text>
+      <text x="220" y="175" font-size="35" font-family="monospace">e</text>
+      <text x="220" y="210" font-size="35" font-family="monospace">f</text>
+      <text x="220" y="245" font-size="35" font-family="monospace">g</text>
+      <text x="220" y="280" font-size="35" font-family="monospace">h</text>
+      <text x="220" y="315" font-size="35" font-family="monospace">i</text>
+      <text x="220" y="350" font-size="35" font-family="monospace">j</text>
+      <text x="220" y="385" font-size="35" font-family="monospace">k</text>
+      <text x="220" y="420" font-size="35" font-family="monospace">l</text>
+      <text x="220" y="455" font-size="35" font-family="monospace">m</text>
+      <text x="220" y="490" font-size="35" font-family="monospace">n</text>
+      <text x="220" y="525" font-size="35" font-family="monospace">o</text>
+      <text x="220" y="560" font-size="35" font-family="monospace">p</text>
+      <text x="220" y="595" font-size="35" font-family="monospace">q</text>
+      <text x="220" y="630" font-size="35" font-family="monospace">r</text>
+      <text x="220" y="665" font-size="35" font-family="monospace">s</text>
+      <text x="220" y="700" font-size="35" font-family="monospace">t</text>
+      <text x="220" y="735" font-size="35" font-family="monospace">u</text>
+    </g>
+  </g>
+  <style>
+    .rollu {
+      animation: rollDownu 2.2s ease-in-out forwards;
+      animation-delay: 3.5s;
+    }
+
+    @keyframes rollDownu {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(-700px);
+      }
+    }
+  </style>
+
+
+  <!--Slot b-->
+  <g mask="url(#fadeMask)">
+    <g class="rollb" transform="translate(0, 45)">
+      <text x="240" y="35" font-size="35" font-family="monospace">a</text>
+      <text x="240" y="70" font-size="35" font-family="monospace">b</text>
+      <text x="240" y="105" font-size="35" font-family="monospace">c</text>
+      <text x="240" y="140" font-size="35" font-family="monospace">d</text>
+      <text x="240" y="175" font-size="35" font-family="monospace">e</text>
+      <text x="240" y="210" font-size="35" font-family="monospace">f</text>
+      <text x="240" y="245" font-size="35" font-family="monospace">g</text>
+      <text x="240" y="280" font-size="35" font-family="monospace">h</text>
+      <text x="240" y="315" font-size="35" font-family="monospace">i</text>
+      <text x="240" y="350" font-size="35" font-family="monospace">j</text>
+      <text x="240" y="385" font-size="35" font-family="monospace">k</text>
+      <text x="240" y="420" font-size="35" font-family="monospace">l</text>
+      <text x="240" y="455" font-size="35" font-family="monospace">m</text>
+      <text x="240" y="490" font-size="35" font-family="monospace">n</text>
+      <text x="240" y="525" font-size="35" font-family="monospace">o</text>
+      <text x="240" y="560" font-size="35" font-family="monospace">p</text>
+      <text x="240" y="595" font-size="35" font-family="monospace">q</text>
+      <text x="240" y="630" font-size="35" font-family="monospace">r</text>
+      <text x="240" y="665" font-size="35" font-family="monospace">s</text>
+      <text x="240" y="700" font-size="35" font-family="monospace">t</text>
+      <text x="240" y="735" font-size="35" font-family="monospace">u</text>
+      <text x="240" y="770" font-size="35" font-family="monospace">v</text>
+      <text x="240" y="805" font-size="35" font-family="monospace">w</text>
+      <text x="240" y="840" font-size="35" font-family="monospace">x</text>
+      <text x="240" y="875" font-size="35" font-family="monospace">y</text>
+      <text x="240" y="910" font-size="35" font-family="monospace">z</text>
+      <text x="240" y="945" font-size="35" font-family="monospace">a</text>
+      <text x="240" y="980" font-size="35" font-family="monospace">b</text>
+    </g>
+  </g>
+  <style>
+    .rollb {
+      animation: rollDownb 2.2s ease-in-out forwards;
+      animation-delay: 2s;
+    }
+
+    @keyframes rollDownb {
+      from {
+        transform: translateY(35px);
+      }
+      to {
+        transform: translateY(-945px);
+      }
+    }
+  </style>
+</svg>
