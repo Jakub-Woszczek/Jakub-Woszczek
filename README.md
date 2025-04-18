@@ -1,4 +1,5 @@
 ## Hi there 👋
+<img src="./AdjustTimeing/RenderedIntro.svg" width="400" alt="Animacja liter" />
 
 <!--
 **Jakub-Woszczek/Jakub-Woszczek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
