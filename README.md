@@ -1,6 +1,5 @@
-## Hi there 👋
 <p align="center">
-  <img src="./AdjustTimeing/RenderedIntro.svg" width="300" alt="Animacja liter" />
+  <img src="./AdjustTimeing/RenderedIntro.svg" width="250" alt="Animacja liter" />
 </p>
 
 <!--
