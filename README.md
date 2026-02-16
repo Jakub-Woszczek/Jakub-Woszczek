@@ -21,14 +21,6 @@
 
 [![Technologies](https://skillicons.dev/icons?i=cpp,bash,julia,js,git,github&perline=7)](https://skillicons.dev)
 
-## Stats📈
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jakub-Woszczek&theme=vue-dark&show_icons=true&hide_border=true&layout=compact&hide=jupyter%20notebook)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jakub-Woszczek/Jakub-Woszczek/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
 </div>
 
 
