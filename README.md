@@ -17,6 +17,10 @@
 
 ## Side projects
 
+[Terminal emulator buffer](https://github.com/Jakub-Woszczek/Terminal-emulator) ~   Core data structures of a terminal 
+emulator: screen grid, scrollback buffer, and cursor logic with a clean facade-based API.  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 [Darwin Simulation](https://github.com/Jakub-Woszczek/Darwin-simulation) ~ Simulation of evolving animals chased by an owlbear.  
 Implements core object-oriented programming principles.  
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
@@ -38,7 +42,8 @@ Dec 2025 : [DISKovery Hackathon](https://github.com/Jakub-Woszczek/DISKovery-Hac
 
 ## University projects
 
-[OOP-Basics](https://github.com/Jakub-Woszczek/OOP-Basics) \
+[Matrix algorithms](https://github.com/Jakub-Woszczek/Matrix-algorithms) \
+[OOP Basics](https://github.com/Jakub-Woszczek/OOP-Basics) \
 [Web Dev](https://github.com/Jakub-Woszczek/JavaScript-AGH-Course) \
 [Text Algorithms](https://github.com/Jakub-Woszczek/Text-Algorithms-AGH-CS-Course) \
 [Operating systems](https://github.com/Jakub-Woszczek/Operating-Systems-AGH-Course) \
