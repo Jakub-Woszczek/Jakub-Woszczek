@@ -13,11 +13,44 @@
 💡 I'm passionate about exploring new technologies and IT solutions
 
 💪 In my free time, I enjoy training calisthenics and running in nature
+</div>
 
+## Side projects
+
+[Darwin Simulation](https://github.com/Jakub-Woszczek/Darwin-simulation) ~ Simulation of evolving animals chased by an owlbear.  
+Implements core object-oriented programming principles.  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+[Anki Flashcards Factory](https://github.com/Jakub-Woszczek/Anki-Flashcards-Factory) ~ Desktop automation tool that programmatically generates Anki flashcards from the Diki.pl dictionary.  
+Speeds up flashcard creation by up to **70%** while preserving full control over card content and state. 🔥  
+![Status](https://img.shields.io/badge/Status-In_development-orange)
+
+[3D Interactive Map](https://github.com/Jakub-Woszczek/3D-Interactive-map) ~ Tool for planning mountain routes in a 3D environment.  
+Choose a route through mountain passes and fly above it using a 3D renderer to visualize path steepness, nearby peaks, and terrain from a bird’s-eye view.  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+## Hackathons
+
+Feb 2026 : [GameJam](https://github.com/Lynxman21/GameJam) \
+Jan 2026 : [BiteHack](https://github.com/Jakub-Woszczek/BiteHack-2026) \
+Dec 2025 : [DISKovery Hackathon](https://github.com/Jakub-Woszczek/DISKovery-Hackathon-2025)
+
+
+## University projects
+
+[OOP-Basics](https://github.com/Jakub-Woszczek/OOP-Basics) \
+[Web Dev](https://github.com/Jakub-Woszczek/JavaScript-AGH-Course) \
+[Text Algorithms](https://github.com/Jakub-Woszczek/Text-Algorithms-AGH-CS-Course) \
+[Operating systems](https://github.com/Jakub-Woszczek/Operating-Systems-AGH-Course) \
+[Computational methods](https://github.com/Jakub-Woszczek/ComputationalMethods-AGH-Course) \
+[Algorithms and data structures](https://github.com/Jakub-Woszczek/Algorithms-and-Data-Structures-AGH-CS-Course-)
+
+
+
+<div align="center">
 
 ## Stack
 </div>
-
 
 <div align="center">
 	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python"/></code>
