@@ -15,7 +15,17 @@
 💪 In my free time, I enjoy training calisthenics and running in nature
 </div>
 
-## Side projects
+## Featured Projects
+
+### [Key-Value Database (Go)](https://github.com/Jakub-Woszczek/KeyValue-Database) 
+![Status](https://img.shields.io/badge/Status-In_Progress-orange) 
+> I'm building a key-value database from scratch in Go, inspired by Cassandra and RocksDB.  
+Based on an LSM-tree design with in-memory structures (memtables) that are periodically flushed to disk as SSTables.  
+Will include persistence and compaction mechanisms, with a focus on write-heavy workloads and throughput.
+<!---![Highlight](https://img.shields.io/badge/★-Crown_Project-gold) when finished--->
+
+
+## Other projects
 
 [Terminal emulator buffer](https://github.com/Jakub-Woszczek/Terminal-emulator) ~   Core data structures of a terminal 
 emulator: screen grid, scrollback buffer, and cursor logic with a clean facade-based API.  
@@ -27,7 +37,7 @@ Implements core object-oriented programming principles.
 
 [Anki Flashcards Factory](https://github.com/Jakub-Woszczek/Anki-Flashcards-Factory) ~ Desktop automation tool that programmatically generates Anki flashcards from the Diki.pl dictionary.  
 Speeds up flashcard creation by up to **70%** while preserving full control over card content and state. 🔥  
-![Status](https://img.shields.io/badge/Status-In_development-orange)
+![Status](https://img.shields.io/badge/Status-Maintenance_Needed-blue)
 
 [3D Interactive Map](https://github.com/Jakub-Woszczek/3D-Interactive-map) ~ Tool for planning mountain routes in a 3D environment.  
 Choose a route through mountain passes and fly above it using a 3D renderer to visualize path steepness, nearby peaks, and terrain from a bird’s-eye view.  
