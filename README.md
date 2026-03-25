@@ -24,15 +24,15 @@ Based on an LSM-tree design with in-memory structures (memtables) that are perio
 Will include persistence and compaction mechanisms, with a focus on write-heavy workloads and throughput.
 <!---![Highlight](https://img.shields.io/badge/★-Crown_Project-gold) when finished--->
 
+### [Darwin Simulation](https://github.com/Jakub-Woszczek/Darwin-simulation) 
+~ Simulation of evolving animals chased by an owlbear. Implements core object-oriented programming principles.  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 
 ## Other projects
 
 [Terminal emulator buffer](https://github.com/Jakub-Woszczek/Terminal-emulator) ~   Core data structures of a terminal 
 emulator: screen grid, scrollback buffer, and cursor logic with a clean facade-based API.  
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-[Darwin Simulation](https://github.com/Jakub-Woszczek/Darwin-simulation) ~ Simulation of evolving animals chased by an owlbear.  
-Implements core object-oriented programming principles.  
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 [Anki Flashcards Factory](https://github.com/Jakub-Woszczek/Anki-Flashcards-Factory) ~ Desktop automation tool that programmatically generates Anki flashcards from the Diki.pl dictionary.  
