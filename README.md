@@ -24,8 +24,8 @@ Based on an LSM-tree design with in-memory structures (memtables) that are perio
 Will include persistence and compaction mechanisms, with a focus on write-heavy workloads and throughput.
 <!---![Highlight](https://img.shields.io/badge/★-Crown_Project-gold) when finished--->
 
-### [Darwin Simulation](https://github.com/Jakub-Woszczek/Darwin-simulation) 
-~ Simulation of evolving animals chased by an owlbear. Implements core object-oriented programming principles.  
+### [Parallel file downloader](https://github.com/Jakub-Woszczek/parallel-file-downloader) 
+~ A standalone Java tool that downloads a file over HTTP using parallel range requests and assembles it into a single output file.
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 
@@ -41,6 +41,10 @@ Speeds up flashcard creation by up to **70%** while preserving full control over
 
 [3D Interactive Map](https://github.com/Jakub-Woszczek/3D-Interactive-map) ~ Tool for planning mountain routes in a 3D environment.  
 Choose a route through mountain passes and fly above it using a 3D renderer to visualize path steepness, nearby peaks, and terrain from a bird’s-eye view.  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+[Darwin Simulation](https://github.com/Jakub-Woszczek/Darwin-simulation) 
+~ Simulation of evolving animals chased by an owlbear. Implements core object-oriented programming principles.  
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Hackathons
