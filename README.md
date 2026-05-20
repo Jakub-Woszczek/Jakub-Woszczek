@@ -49,6 +49,7 @@ Choose a route through mountain passes and fly above it using a 3D renderer to v
 
 ## Hackathons
 
+May 2026 : [HackIOton](https://github.com/Druzyna-Klasyczna/Druzyna-Klasyczna) 🥇 (ex aequo 1st place) \
 Feb 2026 : [GameJam](https://github.com/Lynxman21/GameJam) \
 Jan 2026 : [BiteHack](https://github.com/Jakub-Woszczek/BiteHack-2026) \
 Dec 2025 : [DISKovery Hackathon](https://github.com/Jakub-Woszczek/DISKovery-Hackathon-2025)
